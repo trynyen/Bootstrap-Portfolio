@@ -1,0 +1,85 @@
+/* All */
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    background: url("images/concrete_seamless.png");
+    height: 960px;
+    padding-top: 2%;
+}
+
+.container {
+    background-color:white;
+    height: 90%;
+    max-width: 1200px;
+}
+body {
+    margin:0px;
+}
+.row {
+    margin: 10px;
+}
+
+/* Index */
+.cat {
+    width: 200px;
+    height: 200px;;
+}
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+
+  /* Portfolio */
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+
+/* Footer */
+footer {
+    background-color: rgb(46, 41, 41);
+    color: white;
+    margin-top: 170px;
+    width: 100%;
+    max-width: 1200px;
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* Media */
+@media screen and (max-width: 992px) {
+
+    .wrapper {
+        height: 1500px;
+        padding: 1%;
+        margin: 0px;
+    }
+  
+    }
